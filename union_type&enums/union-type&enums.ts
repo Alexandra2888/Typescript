@@ -12,10 +12,10 @@ type Admin = {
 }
 
 
-let person : User | Admin = { name: 'a', id: 334}
+// let person : User | Admin = { name: 'a', id: 334}
 
 // function getDBId(id: number | string) {
-     //some API calls
+//     // some API calls
 //     console.log(`DB ID is ${id}`);
 // }
 
@@ -24,3 +24,18 @@ let person : User | Admin = { name: 'a', id: 334}
 // function getDBId(id: number | string) {
 //    id.toLowerCase()
 // }
+
+
+//eg
+let id2: number | string;
+id2 = 2;
+id2 = "2";
+
+//eg
+enum Direction1 {
+    Up,
+    Down,
+    Left,
+    Right
+}
+console.log(Direction1.Up);  //0

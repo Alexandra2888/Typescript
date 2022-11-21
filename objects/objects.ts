@@ -1,4 +1,4 @@
-const User = {
+const User1 = {
     name: 'Alex',
     email: 'a@a.gmail.com',
     isActive: true
@@ -14,51 +14,64 @@ function createCourse(): {name: string, price: Number} {
 }  //function that returns an object
 
 
-// type User = {
-//     name: string,
-//     email: string,
-//     isActive: boolean
-// }
+type User2 = {
+    name: string,
+    email: string,
+    isActive: boolean
+}
 
 
-// type MyString = string;
+type MyString = string;
 
-// function getUser(user: User): User {
-//     return { name: "", email: "", isActive: true }
-//  }
+function getUser(user: User): User {
+    return { name: "", email: "", isActive: true, _id: "1223" }
+ }
 
-// getUser({ name: "", email: "", isActive: true })
-
-
-
-// type User = {
-//    readonly _id: string,
-//     name: string,
-//     email: string,
-//     isActive: boolean,
-//     creditCardDetails?: number
-// }
-
-// let myUser: User = {
-//     _id: "2233",
-//     name: "a",
-//     email: "a@a.gmnail.com",
-//     isActive: false,
-// }
+getUser({ name: "", email: "", isActive: true, _id: ""})
 
 
 
-// myUser.email = "b.b@gmail.com"
- //myUser._id = "122"
+type User = {
+   readonly _id: string,
+    name: string,
+    email: string,
+    isActive: boolean,
+    creditCardDetails?: number
+}
 
-// type cardNumber = {
-//     cardNumvber : string
-// }
+let myUser: User = {
+    _id: "2233",
+    name: "a",
+    email: "a@a.gmnail.com",
+    isActive: false,
+}
 
-// type cardDate = {
-//     cardDate: string
-// }
 
-// type cardDetails = cardNumber & cardDate & {
-//     cvv: number
-// }
+
+myUser.email = "b.b@gmail.com"
+//  myUser._id =  "122"
+
+
+
+type cardNumber = {
+    cardNumber : string
+}
+
+type cardDate = {
+    cardDate: string
+}
+
+type cardDetails = cardNumber & cardDate & {
+    cvv: number
+}
+
+
+type User3 = {
+    id: number,
+    name: string
+}
+
+const user3: User3 = {
+    id: 1,
+    name: "John"
+}

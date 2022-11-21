@@ -65,7 +65,7 @@
 ## Synthax:
 let variableName: type = value;
 
-## !
+## 
 When you don't specify a  type, and Ts can't infer it from context, the compiler will typically default to any. You usually want to avoid any because it's not type-checked.
 
 ## Type aliases
