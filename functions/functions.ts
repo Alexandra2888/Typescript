@@ -42,3 +42,9 @@ function consoleError(errorMessage: string): void {
 function handleError(errorMessage:string):never {
 throw new Error(errorMessage)
 }
+
+//eg
+function addNum(x: number, y:number) {
+    return x + y;
+}
+console.log(addNum(1, 2));
