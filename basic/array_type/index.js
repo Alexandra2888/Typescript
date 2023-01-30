@@ -11,6 +11,6 @@ let myStrings = [
     ["hi", "hello"], ["there"]
 ];
 let myArr = [
-    [12, "hi"],
-    ["hello", 3]
+    ["hello", "hi"],
+    [12, 3]
 ];

@@ -23,6 +23,6 @@ let myStrings: string[][] = [
 
 //nestwed array number & string
 let myArr: (number | string)[][] = [
-    [12, "hi"],
-    ["hello", 3]
+    ["hello", "hi"],
+    [12, 3]
 ]
