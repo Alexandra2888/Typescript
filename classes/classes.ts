@@ -1,10 +1,10 @@
-class Person {
-    id: number
-    name: string
-    constructor() {
-        console.log(123);
-    }
-}
+// class Person {
+//     id: number
+//     name: string
+//     constructor() {
+//         console.log(123);
+//     }
+// }
 
 //eg
 class Person2 {

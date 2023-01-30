@@ -1,5 +1,7 @@
 ## TYPESCRIPT
 
+= TypeScript is a statically typed, object oriented programming language that was created by Microsoft in 2012
+= TypeScript is a superset of JavaScript, which means TypeScript extends the capabilities of JavaScript by adding type safety and type checking to JavaScript, data types, classes, and other object oriented features
 
 ## What is Ts
 * open-source language, a superset of Js
@@ -7,10 +9,14 @@
 * using types is completely optional
 * compiles down to regular Js
 * can be used both for FE + BE
-* includes features from ES6, ES7( calsses, => )
+* includes features from ES6, ES7( classes, => )
 * types from 3rd party libraries can be added with type definitions
 * static checking => analize the code as we type it
 * it's a development tool, your project still run Js
+* is a statically typed programming language, which means we need to type annotated variables at the time of declaring them.
+* there is also a compiled stage required since TypeScript cannot be loaded directly into the browser.
+* this compilation stage is really, really important for TypeScript, since this is what is the most
+* important feature of TypeScript and this helps us to catch errors during compilation before compiling or transforming our TypeScript code into JavaScript so it can be served to the browser
 
 
 ## Dynamic vs Static types

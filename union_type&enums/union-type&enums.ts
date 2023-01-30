@@ -1,10 +1,10 @@
-let score: number | string = 33;
-score = '33'
+// let score: number | string = 33;
+// score = '33'
 
-type User = {
-    name: string,
-    id: number
-}
+// type User = {
+//     name: string,
+//     id: number
+// }
 
 type Admin = {
     id: number,

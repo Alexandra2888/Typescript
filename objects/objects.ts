@@ -4,9 +4,9 @@ const User1 = {
     isActive: true
 }
 
-function createUser({ name: string, isPaid: boolean }) { }
-let newUser = { name: "A", isPaid: false };
-createUser(newUser);
+// function createUser({ name: string, isPaid: boolean }) { }
+// let newUser = { name: "A", isPaid: false };
+// createUser(newUser);
 
 
 function createCourse(): {name: string, price: Number} {
@@ -23,32 +23,32 @@ type User2 = {
 
 type MyString = string;
 
-function getUser(user: User): User {
-    return { name: "", email: "", isActive: true, _id: "1223" }
- }
+// function getUser(user: User): User {
+//     return { name: "", email: "", isActive: true, _id: "1223" }
+//  }
 
-getUser({ name: "", email: "", isActive: true, _id: ""})
-
-
-
-type User = {
-   readonly _id: string,
-    name: string,
-    email: string,
-    isActive: boolean,
-    creditCardDetails?: number
-}
-
-let myUser: User = {
-    _id: "2233",
-    name: "a",
-    email: "a@a.gmnail.com",
-    isActive: false,
-}
+// getUser({ name: "", email: "", isActive: true, _id: ""})
 
 
 
-myUser.email = "b.b@gmail.com"
+// type User = {
+//    readonly _id: string,
+//     name: string,
+//     email: string,
+//     isActive: boolean,
+//     creditCardDetails?: number
+// }
+
+// let myUser: User = {
+//     _id: "2233",
+//     name: "a",
+//     email: "a@a.gmnail.com",
+//     isActive: false,
+// }
+
+
+
+// myUser.email = "b.b@gmail.com"
 //  myUser._id =  "122"
 
 
