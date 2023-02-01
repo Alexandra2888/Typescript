@@ -4,6 +4,7 @@ const myCat = "Daisy";
 let passed = true || false;
 let language = new String('Typescript');
 let len = language.length;
+let lang = "Ts".length;
 let myAge = 18;
 let breed = 'Bichon';
 let lie = false;

@@ -17,6 +17,8 @@ let passed: boolean = true || false;
 let language = new String('Typescript');
 let len = language.length;
 
+let lang: number = "Ts".length;
+
 //7
 let myAge = 18;
 
