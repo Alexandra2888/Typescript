@@ -1,1 +1,1 @@
-# are used to build reusable components
+# are used to build reusable components, they refer not to any specific type

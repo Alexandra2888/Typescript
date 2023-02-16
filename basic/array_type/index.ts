@@ -1,5 +1,5 @@
 //array of numbers
-let numbers: number[] = [1,2,3,4,5];
+let numbers3: number[] = [1,2,3,4,5];
 
 // array of strings
 let products: string[] = ["Hat", "Shirt", "Jeans"];
