@@ -44,8 +44,8 @@ let myTuple: [string] = ['Typescript'];
 let numTuple: [number] = [12];
 
 //15
-let course: [string, number] = ['CSS', 29.99];
-console.log(course[1]);
+let course1: [string, number] = ['CSS', 29.99];
+console.log(course1[1]);
 
 //16
  enum ProductNames {
