@@ -1,0 +1,3 @@
+1. Write a function that handles whetever a product is wiewd or not. If the product is wiewed more than once the function has to return true. If the product has not been viewd, it means the product count is 0 and the function has to return false.
+2. Create a function that accepts an object and an employee object and that object has to be created with the object type like aliases.
+3. Create an employee type that has a property of name with the type of name(string), positionTitle(string), age(number) and hired(boolean). 
